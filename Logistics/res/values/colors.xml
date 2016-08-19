@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="a30_black">#48000000</color>
+    <color name="a69_black">#b2000000</color>
+    <color name="index_bg">#f1f2f3</color>
+    <color name="main_buttom_bg">#12ff7942</color>
+    <color name="main_tab_color_1">#ff7a43</color>
+    <color name="main_tab_color_2">#b2b2b2</color>
+    <color name="base_color">#f1f2f3</color>
+    <color name="line_color">#d8d6d6</color>
+    <color name="search_color">#f3f3f3</color>
+    <color name="check_num_color">#ff7a43</color>
+    <color name="reader_item_color">#f1f2f3</color>
+    <color name="service_item_color">#1f69e5</color>
+
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_bg_tab"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:drawableTop="@drawable/tab_home_sel"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/main_tab_color_1"
+            android:textSize="@dimen/font_size_12" />
+
+        <TextView
+            android:id="@+id/tv_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="55dp"
+            android:drawableTop="@drawable/tab_user_nor"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/main_tab_color_2"
+            android:textSize="@dimen/font_size_12" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="77.8dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tab_assistant"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="1dp"
+        android:text="助手"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_10" />
+
+</RelativeLayout>

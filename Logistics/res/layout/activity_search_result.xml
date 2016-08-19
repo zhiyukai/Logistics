@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_26"
+                android:background="@color/main_tab_color_1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/order_num"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_12" />
+
+                <TextView
+                    android:id="@+id/tv_order_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12345678"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_48"
+                android:layout_marginTop="@dimen/margin_5"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/shipping_costs"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_14" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_order_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:text="5元"
+                    android:textColor="@color/main_tab_color_1"
+                    android:textSize="@dimen/font_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_48"
+                android:layout_marginTop="@dimen/margin_5"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_16"
+                    android:text="@string/leave_message"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_leave_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_36"
+                    android:layout_marginRight="@dimen/margin_16"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_16" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_43"
+                android:layout_marginRight="@dimen/margin_16"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_16"
+                android:text="@string/sender_info"
+                android:textColor="@color/a30_black"
+                android:textSize="@dimen/font_size_14" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_69"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/padding_16"
+                android:paddingRight="@dimen/padding_16" >
+
+                <TextView
+                    android:id="@+id/tv_sender_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:gravity="center_vertical"
+                    android:text="李洋洋"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_16" />
+
+                <TextView
+                    android:id="@+id/tv_reciver_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_36"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_toRightOf="@id/tv_sender_name"
+                    android:gravity="center_vertical"
+                    android:text="18310412473"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_16" />
+
+                <TextView
+                    android:id="@+id/tv_sender_detail_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sender_name"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho"
+                    android:textColor="@color/a30_black"
+                    android:textSize="@dimen/font_size_12" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_receiver_info"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_43"
+                android:layout_marginRight="@dimen/margin_16"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_16"
+                android:text="@string/receiver_info"
+                android:textColor="@color/a30_black"
+                android:textSize="@dimen/font_size_14" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_69"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/padding_16"
+                android:paddingRight="@dimen/padding_16" >
+
+                <TextView
+                    android:id="@+id/tv_receiver_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:gravity="center_vertical"
+                    android:text="张三"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_16" />
+
+                <TextView
+                    android:id="@+id/tv_sender_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_36"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_toRightOf="@id/tv_receiver_name"
+                    android:gravity="center_vertical"
+                    android:text="18310412473"
+                    android:textColor="@color/a69_black"
+                    android:textSize="@dimen/font_size_16" />
+
+                <TextView
+                    android:id="@+id/tv_receiver_detail_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_receiver_name"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho北京市 朝阳区 三里屯soho"
+                    android:textColor="@color/a30_black"
+                    android:textSize="@dimen/font_size_12" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_logistics_info"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_43"
+                android:layout_marginRight="@dimen/margin_16"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_16"
+                android:text="@string/logistics_info"
+                android:textColor="@color/a69_black"
+                android:textSize="@dimen/font_size_14" />
+
+            <ListView
+                android:id="@+id/lv_order_statue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:listSelector="#00000000"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

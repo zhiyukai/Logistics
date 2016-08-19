@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Header">
+        <attr name="middle_text" format="string|reference" />
+        <attr name="middle_text_size" format="dimension" />
+        <attr name="middle_text_color" format="color|reference" />
+        <attr name="right_text" format="string|reference" />
+        <attr name="right_text_size" format="dimension" />
+        <attr name="right_text_color" format="color|reference" />
+        <attr name="right_visiable" format="integer" />
+    </declare-styleable>
+
+</resources>

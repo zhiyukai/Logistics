@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_101">101dp</dimen>
+    <dimen name="margin_17">17dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_49">49dp</dimen>
+    <dimen name="margin_139">139dp</dimen>
+    <dimen name="margin_176">176dp</dimen>
+    <dimen name="margin_178">178dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_33">33dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_34">34dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_13">13dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_17">17dp</dimen>
+    <dimen name="padding_26">26dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="activity_vertical_margin_16">16dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_43">43dp</dimen>
+    <dimen name="margin_69">69dp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="head_height">46dp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="height_57">57dp</dimen>
+    <dimen name="height_46">46dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="height_146">146dp</dimen>
+    <dimen name="height_42">42dp</dimen>
+    <dimen name="height_26">26dp</dimen>
+    <dimen name="width_90">90dp</dimen>
+    <dimen name="height_1">1dp</dimen>
+    <dimen name="height_214">214dp</dimen>
+    <dimen name="height_181">181dp</dimen>
+
+</resources>

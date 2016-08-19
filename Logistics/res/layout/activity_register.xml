@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="@dimen/margin_16"
+        android:background="@color/white" >
+
+        <EditText
+            android:id="@+id/et_input_num"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_57"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ico_phonenumber"
+            android:drawablePadding="@dimen/padding_10"
+            android:inputType="phone"
+            android:paddingLeft="@dimen/padding_26" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_below="@id/et_input_num"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginRight="@dimen/margin_16"
+            android:background="@color/line_color" />
+
+        <EditText
+            android:id="@+id/et_input_checknum"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_57"
+            android:layout_below="@id/line"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ico_identifyingcode"
+            android:drawablePadding="@dimen/padding_10"
+            android:inputType="number"
+            android:paddingLeft="@dimen/padding_26" />
+
+        <TextView
+            android:id="@+id/tv_checknum"
+            android:layout_width="@dimen/width_90"
+            android:layout_height="@dimen/height_42"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/line"
+            android:layout_marginRight="@dimen/margin_16"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/register_check_num_bg"
+            android:gravity="center"
+            android:text="@string/check_num"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_14" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_set_pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_57"
+        android:layout_below="@id/line"
+        android:layout_marginTop="@dimen/margin_16"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ico_password"
+        android:drawablePadding="@dimen/padding_10"
+        android:drawableRight="@drawable/ico_showpassword"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/padding_26"
+        android:paddingRight="@dimen/padding_17" />
+
+    <LinearLayout
+        android:id="@+id/ll_provision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_26"
+            android:drawableLeft="@drawable/ico_agreed"
+            android:drawablePadding="@dimen/padding_10"
+            android:gravity="center_vertical"
+            android:text="@string/reader"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_16" />
+
+        <TextView
+            android:id="@+id/tv_service_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/service_item"
+            android:textColor="@color/service_item_color"
+            android:textSize="@dimen/font_size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_46"
+        android:layout_marginLeft="@dimen/font_size_16"
+        android:layout_marginRight="@dimen/font_size_16"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/register_check_num_bg"
+        android:gravity="center"
+        android:text="@string/register_ins"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_16" />
+
+</LinearLayout>
